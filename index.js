@@ -194,7 +194,7 @@ async function main() {
 
   // Contact logs
   console.log('\n---\n');
-  console.log(`Questions 👀? ${color.underline(color.cyan('https://x.com/_gonzaparra'))}`);
+  console.log(`Questions 👀? ${color.underline(color.cyan('https://twitter.com/_gonzaparra'))}`);
 }
 
 // Run the main function
