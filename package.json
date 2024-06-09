@@ -1,0 +1,39 @@
+{
+  "name": "create-gonzapp",
+  "version": "1.0.0",
+  "description": "Create projects as gonza would",
+  "main": "index.js",
+  "bin": {
+    "create-gonzapp": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup",
+    "start": "node index.js",
+    "dev": "tsup --watch",
+    "bump": "pnpm build && pnpm version patch && git tag latest --force && git push origin main --tags --force && pnpm publish --tag latest --force"
+  },
+  "type": "module",
+  "keywords": [
+    "react",
+    "next.js",
+    "shadcn",
+    "tailwindcss",
+    "gonzalojparra"
+  ],
+  "author": "gonzalojparra",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.4.1",
+    "picocolors": "^1.0.1",
+    "prompts": "^2.4.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/prompts": "^2.4.9",
+    "@types/yargs": "^17.0.32",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
