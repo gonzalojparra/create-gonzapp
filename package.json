@@ -1,7 +1,7 @@
 {
   "name": "create-gonzapp",
   "version": "1.0.0",
-  "description": "Create projects as gonza would",
+  "description": "Create projects as Gonza would",
   "main": "index.js",
   "bin": {
     "create-gonzapp": "index.js"
