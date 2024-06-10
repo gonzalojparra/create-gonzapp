@@ -1,6 +1,6 @@
 {
   "name": "create-gonzapp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create projects as Gonza would",
   "main": "index.ts",
   "bin": {
