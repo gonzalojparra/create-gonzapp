@@ -70,7 +70,7 @@ export default function SignInPage() {
 And a `app/sign-up/[[...sign-up]]/page.tsx` file with the following content:
 
 ```tsx
-import {SignUp} from "@clerk/nextjs";
+import { SignUp } from '@clerk/nextjs';
 
 export default function SignUpPage() {
   return (
