@@ -29,25 +29,9 @@ const EXTRAS = {
       value: 'mercadopago',
     },
     {
-      title: 'Kinde Auth',
-      value: 'kinde',
-    },
-    {
       title: 'Clerk Auth',
       value: 'clerk',
-    },
-    {
-      title: 'Auth0',
-      value: 'auth0',
-    },
-    {
-      title: 'Supabase',
-      value: 'supabase',
-    },
-    {
-      title: 'libSQL + Drizzle',
-      value: 'libsql',
-    },
+    }
   ],
   'next-ts-shadcn': [
     {
@@ -55,26 +39,10 @@ const EXTRAS = {
       value: 'mercadopago',
     },
     {
-      title: 'Kinde Auth',
-      value: 'kinde',
-    },
-    {
       title: 'Clerk Auth',
       value: 'clerk',
-    },
-    {
-      title: 'Auth0',
-      value: 'auth0',
-    },
-    {
-      title: 'Supabase',
-      value: 'supabase',
-    },
-    {
-      title: 'libSQL + Drizzle',
-      value: 'libsql',
-    },
-  ],
+    }
+  ]
 };
 
 // Specify CLI arguments
