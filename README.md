@@ -1,8 +1,23 @@
-# Create Gonzapp 🧉
+<h1 align="center">Create Gonzapp 🧉</h1>
 
-Template-CLI to create projects as I would
+<div align="center">
+  
+[![npm version](https://img.shields.io/npm/v/your-package-name.svg)](https://www.npmjs.com/package/create-gonzapp)
+[![npm downloads](https://img.shields.io/npm/dt/your-package-name.svg)](https://www.npmjs.com/package/create-gonzapp)
 
-## Usage
+</div>
+<p align="center">
+  A Template-CLI tool to create projects with my preferred setup and configuration.
+</p>
+
+## 🫡 Features
+- Pre-configured ESLint and Prettier setup
+- Custom folder structure
+- Integrated with TypeScript
+- Ready-to-use environment configuration
+- Third-party optional extras
+
+## 🚀 Usage
 
 ```bash
 # Interactive mode
@@ -24,6 +39,6 @@ pnpm create gonzapp --help
 pnpm install -g create-gonzapp
 ```
 
-## Questions?
+## Questions
 
-If you have any questions, feel free to open an issue or contact me on [Twitter](https://twitter.com/_gonzaparra).
+If you have any questions, feel free to open an issue or contact me on [Twitter](https://twitter.com/_gonzaparra)
