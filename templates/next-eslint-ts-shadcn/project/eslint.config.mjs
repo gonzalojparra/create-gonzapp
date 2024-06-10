@@ -71,6 +71,8 @@ export default [
       ],
       'jsx-a11y/no-static-element-interactions': 'off',
       'jsx-a11y/click-events-have-key-events': 'off',
+      'react/jsx-first-prop-new-line': ['warn', 'multiline'],
+      'react/jsx-max-props-per-line': ['warn', { when: 'always' }],
     },
   },
   // TypeScript configuration
@@ -112,6 +114,7 @@ export default [
             bracketSpacing: true,
             arrowParens: 'always',
             endOfLine: 'auto',
+            jsxSingleQuote: true, // Use single quotes in JSX
             plugins: ['prettier-plugin-tailwindcss'],
           },
         ],

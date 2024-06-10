@@ -15,20 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      className='min-h-screen bg-background antialiased'
-      lang='en'
-      suppressHydrationWarning
-    >
+    <html suppressHydrationWarning className='min-h-screen bg-background antialiased' lang='en'>
       <body>
-        <ThemeProvider
-          attribute='class'
-          defaultTheme='system'
-          enableSystem
-        >
-          <main className='flex min-h-screen flex-col items-center justify-center'>
-            {children}
-          </main>
+        <ThemeProvider enableSystem attribute='class' defaultTheme='system'>
+          <main className='flex min-h-screen flex-col items-center justify-center'>{children}</main>
         </ThemeProvider>
       </body>
     </html>
