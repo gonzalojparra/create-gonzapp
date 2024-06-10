@@ -111,7 +111,7 @@ async function main() {
   const destination = path.join(process.cwd(), project.name);
 
   // Get the extras for the selected template
-  let extras = [];
+  let extras: string[] = [];
 
   if (EXTRAS[project.template]) {
     const { extras: results } = await prompts({
@@ -144,14 +144,14 @@ async function main() {
     await writeFile(file, draft, 'utf8');
   }
 
-  // Log outro message
+  // Log finish message
   console.log('\n✨ Project created ✨');
-  console.log(`\n${color.yellow(`Next steps:`)}\n`);
+  console.log(`\n${color.blue(`Next steps:`)}\n`);
   console.log(`${color.green(`cd`)} ${project.name}`);
   console.log(`${color.green(`pnpm`)} install`);
   console.log(`${color.green(`pnpm`)} dev`);
 
-  // Extras log
+  // If there are extras, log the message
   if (extras.length) {
     console.log(
       `\nCheck out ${color.italic(
