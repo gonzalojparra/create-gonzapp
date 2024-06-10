@@ -1,11 +1,5 @@
 <h1 align="center">Create Gonzapp 🧉</h1>
 
-<div align="center">
-  
-[![npm version](https://img.shields.io/npm/v/your-package-name.svg)](https://www.npmjs.com/package/create-gonzapp)
-[![npm downloads](https://img.shields.io/npm/dt/your-package-name.svg)](https://www.npmjs.com/package/create-gonzapp)
-
-</div>
 <p align="center">
   A Template-CLI tool to create projects with my preferred setup and configuration.
 </p>
