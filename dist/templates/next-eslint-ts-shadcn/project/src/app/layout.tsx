@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 
 import { ThemeProvider } from '@/components/theme-provider';
+import { Header } from '@/components/layout/header';
+import { Footer } from '@/components/layout/footer';
 
 import './globals.css';
 
@@ -18,7 +20,11 @@ export default function RootLayout({
     <html suppressHydrationWarning className='min-h-screen bg-background antialiased' lang='en'>
       <body>
         <ThemeProvider enableSystem attribute='class' defaultTheme='system'>
-          <main className='flex min-h-screen flex-col items-center justify-center'>{children}</main>
+          <main className='flex min-h-screen flex-col items-center justify-center'>
+            <Header />
+            {children}
+            <Footer />
+          </main>
         </ThemeProvider>
       </body>
     </html>

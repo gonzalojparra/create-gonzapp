@@ -9,7 +9,7 @@
 - Custom folder structure
 - Integrated with TypeScript
 - Ready-to-use environment configuration
-- Third-party optional extras
+- Optional extra libraries
 
 ## 🚀 Usage
 
