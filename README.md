@@ -36,3 +36,5 @@ pnpm install -g create-gonzapp
 ## Questions
 
 If you have any questions, feel free to open an issue or contact me on [Twitter](https://twitter.com/_gonzaparra)
+
+###### Adapted from the [Goncy](https://github.com/goncy) CLI
